@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Professional website showcasing my portfolio, experience, and skills.">
-    <title>My Professional Website</title>
+    <title>Odera Onyema</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
