@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>My Name</h1>
+            <h1>Odera Onyema</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
