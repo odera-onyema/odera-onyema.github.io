@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9fdfc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .hero .content {
+            max-width: 500px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .hero .subscribe {
+            display: flex;
+            gap: 10px;
+        }
+
+        .hero input[type="text"],
+        .hero input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            flex: 1;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #e65500;
+        }
+
+        .hero .image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ODERA ONYEMA</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Projects/a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h2>Hello, I’m Odera Onyema.</h2>
+            <p>I’m a Public health professional, creative writer, faith and finance enthusiast</p>
+            <p><em>Subscribe to get my weekly newsletter and latest articles.</em></p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your First Name">
+                <input type="email" placeholder="Your Email Address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="https://via.placeholder.com/300" alt="Odera Onyema">
+        </div>
+    </section>
+</body>
+</html>
 
